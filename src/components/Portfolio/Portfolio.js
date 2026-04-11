@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import style from "./Portfolio.module.css";
-const JPG_FILE_URL = "http://localhost:3000/projects/CV Muhammad Miftahusshiddiq.jpg";
+const JPG_FILE_URL = "http://localhost:3000/image/projects/CV Muhammad Miftahusshiddiq.jpg";
 
 function Portfolio() {
     const downloadFileAtURL = (url) => {

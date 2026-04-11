@@ -7,7 +7,7 @@ function Contact() {
                 <h1>Contact Me</h1>
                 <p>If you like to collaborate or just say hi, feel free to send a message!</p>
 
-                <form className={style.contact_form} >
+                <form className={style.contact_form} action="https://formspree.io/f/mzzgnbjg" method="POST">
                     <input type="text" name="Name" placeholder="Your Name" required />
                     <input type="email" name="Email" placeholder="Your Email" required />
                     <textarea name="message" placeholder="Your Message" rows="6" required></textarea>

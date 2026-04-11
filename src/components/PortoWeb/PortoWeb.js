@@ -27,7 +27,7 @@ function PortoWeb() {
 
     return (
         <div className={style.container}>
-            <h1>My <span style={{color: "#ff4c60"}}>Projects</span></h1>
+            <h1>My <span style={{ color: "#ff4c60" }}>Projects</span></h1>
 
             <div className={style.marquee}>
                 <p>Welcomeee! Brothers and Sisters to My Portfolio Web - HAVE A NICE DAY! ENJOYYY</p>
@@ -44,19 +44,19 @@ function PortoWeb() {
 
             <div className={style.cards}>
                 <div className={style.card}>
-                    <img src="image/projects/al-point.png" alt="project" className={style.projectimage}></img>
+                    <img src="image/projects/al-point.png" alt="project" className={style.projectImage}></img>
                     <h1>Al - Point</h1>
                     <button className={style.btn} onClick={() => openModal("A")}>Learn More</button>
                 </div>
 
                 <div className={style.card}>
-                    <img src="image/projects/al-market.png" alt="project" className={style.projectimage}></img>
+                    <img src="image/projects/al-market.png" alt="project" className={style.projectImage}></img>
                     <h1>Al - Market</h1>
                     <button className={style.btn} onClick={() => openModal("B")}>Learn More</button>
                 </div>
 
                 <div className={style.card}>
-                    <img src="image/projects/w4learn.png" alt="project" className={style.projectimage}></img>
+                    <img src="image/projects/w4learn.png" alt="project" className={style.projectImage}></img>
                     <h1>W4Learn</h1>
                     <button className={style.btn} onClick={() => openModal("C")}>Learn More</button>
                 </div>
@@ -66,6 +66,18 @@ function PortoWeb() {
                 &copy; 2025 MSHDQ. All rights reserved.
             </div>
 
+            {show && (
+                <div className={style.modal}>
+                    <div className={style.box}>
+                        <span className={style.close} onClick={() => setShow(false)}>
+                            &times;
+                        </span>
+                        <h2>{content.title}</h2>
+                        <p>{content.desc}</p>
+                    </div>
+                </div>
+            )
+            }
 
         </div>
     )

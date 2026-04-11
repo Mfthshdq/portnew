@@ -52,7 +52,7 @@ function ToolAndSkill() {
             </div>
 
             <div className={style.marquee}>
-                <p>GG GA CELLL</p>
+                <p>GG GA CELLL ANJAYYY</p>
                 <p>GG KANNN</p>
                 <p>GASI B AJA WKWKWKWK</p>
             </div>

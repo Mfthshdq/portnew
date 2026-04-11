@@ -12,22 +12,22 @@ function Service() {
                     <div className={style.service_cards}>
 
                         <div className={style.service_card}>
-                            <h3>Website Development</h3>
+                            <h3>🌐 Website Development</h3>
                             <p>Membuat website modern menggunakan React.js dan teknologi terbaru.</p>
                         </div>
 
                         <div className={style.service_card}>
-                            <h3>UI/UX Design</h3>
+                            <h3>🎨 UI/UX Design</h3>
                             <p>Design tampilan website yang clean, modern, dan user-friendly.</p>
                         </div>
 
                         <div className={style.service_card}>
-                            <h3>Landing Page</h3>
+                            <h3>⚡ Landing Page</h3>
                             <p>Landign page cepat dan optimal untuk meningkatkan konversi.</p>
                         </div>
 
                         <div className={style.service_card}>
-                            <h3>Website Maintenance</h3>
+                            <h3>🔧 Website Maintenance</h3>
                             <p>Perbaikan bug, update fitur, dan optimasi performa website.</p>
                         </div>
 
