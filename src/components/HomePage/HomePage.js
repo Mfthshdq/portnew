@@ -7,7 +7,7 @@ function HomePage() {
             <div className={style.hero}>
 
                 <div className={style.herotxt}>
-                    <h1>well</h1>
+                    <h1>Welcome!</h1>
                     <h2>
                         I Am <span className={style.highlight}>Frontend Developer</span>
                     </h2>
