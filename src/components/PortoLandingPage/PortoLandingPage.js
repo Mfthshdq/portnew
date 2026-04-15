@@ -47,7 +47,7 @@ function PortoLandingPage() {
             <div className={style.cards}>
                 <div className={style.card}>
                     <img src="image/projects/w4learn.png" alt="project" className={style.projectImage}></img>
-                    <h1>Al - Point</h1>
+                    <h1>W4Learn</h1>
                     <button className={style.btn} onClick={() => openModal("A")}>Learn More</button>
                 </div>
             </div>
