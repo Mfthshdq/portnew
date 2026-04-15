@@ -68,6 +68,7 @@
 .marquee p {
     font-size: 40px;
     color: white;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     animation: scroll 10s linear infinite;
